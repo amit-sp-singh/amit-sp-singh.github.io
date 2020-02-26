@@ -1,0 +1,5763 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+.amit-icon {
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color:red;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.amit-icon-twitter:before {
+    content: "\f099"
+}
+
+.amit-icon-facebook:before {
+    content: "\f09a"
+}
+
+.amit-icon-github:before {
+    content: "\f09b"
+}
+
+.amit-icon-rss:before {
+    content: "\f09e"
+}
+
+.amit-icon-google-plus:before {
+    content: "\f0d5"
+}
+
+.amit-icon-linkedin:before {
+    content: "\f0e1"
+}
+
+.amit-icon-github-alt:before {
+    content: "\f113"
+}
+.amit-icon-youtube:before {
+    content: "\f167"
+}
+
+.amit-icon-instagram:before {
+    content: "\f16d"
+}
+
+.amit-icon-linux:before {
+    content: "\f17c"
+}
+
+.amit-icon-dribbble:before {
+    content: "\f17d"
+}
+
+.amit-icon-skype:before {
+    content: "\f17e"
+}
+
+.amit-icon-foursquare:before {
+    content: "\f180"
+}
+
+.amit-icon-vk:before {
+    content: "\f189"
+}
+
+.amit-icon-try:before {
+    content: "\f195"
+}
+
+.amit-icon-wordpress:before {
+    content: "\f19a"
+}
+
+.amit-icon-yahoo:before {
+    content: "\f19e"
+}
+
+.amit-icon-google:before {
+    content: "\f1a0"
+}
+
+
+#amitMainNav ul,
+#amitMainNavSm ul,
+.clear-list,
+.comment .children,
+.amit-icon-list,
+.amit-icon-list ol,
+.amit-icon-list ul,
+.amit-icons-list,
+.slick-dots,
+.styled-list,
+.styled-list ol,
+.styled-list ul,
+.styled-ol,
+.styled-ol ol,
+.styled-ul,
+.styled-ul ul,
+.tabs .tabs-menu,
+.widget ul {
+    list-style: none
+}
+
+#amitOverlay,
+.slick-slider,
+a,
+button,
+input,
+select,
+textarea {
+    -webkit-tap-highlight-color: transparent
+}
+
+html {
+    color:Black !important;
+  
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    
+    
+    background-image: url(images/bodyBackground.jpeg);
+    color:Black !important;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-size: 16px;
+    line-height: 1.4em;
+    letter-spacing: .08em;
+    padding: 0;
+    margin: 0;
+    min-height: 100%
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+:focus {
+    outline: 0
+}
+
+::-moz-focus-inner {
+    border: 0
+}
+
+::-moz-selection {
+    text-shadow: none
+}
+
+::selection {
+    text-shadow: none
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    overflow-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    transition: all .2s ease-out
+}
+h2.text-upper.upper-name{
+    color: #60cd83 !important;
+    font-weight: 900 !important;
+    font-size: 30px;
+}
+.muted-p{
+    color: #60cd83 !important;
+    font-weight: 800 !important;
+    font-size: 20px;
+}
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:#60cd83 !important;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 22px
+}
+
+blockquote p:last-child,
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin-bottom: 0
+}
+
+.h1:first-child,
+.h2:first-child,
+.h3:first-child,
+.h4:first-child,
+.h5:first-child,
+.h6:first-child,
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0
+    
+}
+
+.h1,
+h1 {
+    font-size: 30px;
+    margin-top: 44px
+}
+
+.h2,
+h2 {
+    font-size: 24px;
+    margin-top: 39.6px
+}
+
+.h3,
+h3 {
+    font-size: 20px;
+    margin-top: 30.8px
+}
+
+.h4,
+h4 {
+    font-size: 18px;
+    margin-top: 26.4px
+}
+
+.h5,
+h5 {
+    font-size: 14px;
+    margin-top: 24.2px
+}
+
+.h6,
+h6 {
+    font-size: 12px;
+    margin-top: 26.4px
+}
+
+p {
+    color:black !important;
+  
+    margin: 0 0 22px
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+cite,
+dfn,
+em,
+i {
+    font-style: italic
+}
+
+blockquote {
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 1.1em 1.9em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 470px;
+    margin: 0 auto 22px
+}
+
+
+hr {
+    background: 0 0;
+    border-width: 0 0 1px;
+    border-style: solid;
+    margin: 22px 0
+}
+
+.dotted {
+    border-style: dotted
+}
+
+.dashed {
+    border-style: dashed
+}
+
+ol,
+ul {
+    margin: 0 0 22px;
+    padding: 0 0 0 1.6em
+}
+
+ul {
+    list-style-type: disc
+}
+
+ol {
+    list-style-type: decimal
+}
+
+dl {
+    margin-top: 0
+}
+
+dt {
+    letter-spacing: .01em
+}
+
+dd {
+    margin: 0 0 .563em
+}
+
+.clear-list {
+    margin: 0;
+    padding: 0
+}
+
+.styled-ul,
+.styled-ul ul {
+    line-height: 1.7em
+}
+
+.styled-ul ul {
+    padding-left: 1.1em;
+    margin: .7em 0 .7em 1.2em
+}
+
+.styled-ul li:before {
+    content: '';
+    top: .85em;
+    left: -1.1em;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -1.5px
+}
+
+.styled-ul>li:before {
+    width: 5px;
+    height: 5px;
+    left: -1.6em;
+    margin-top: -2.5px
+}
+
+img,
+select[multiple] {
+    height: auto
+}
+
+.styled-ul>li>ul {
+    font-size: .94em
+}
+
+.styled-ul>li>ul ul {
+    font-size: .9em
+}
+
+.styled-ol {
+    line-height: 1.7em;
+    counter-reset: my-badass-counter
+}
+
+.styled-ol li {
+    position: relative
+}
+
+.styled-ol li:before {
+    content: counter(my-badass-counter) ".";
+    counter-increment: my-badass-counter;
+    font-weight: 700;
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: -1.6em
+}
+
+.styled-list {
+    font-weight: 700;
+    line-height: 2.4em
+}
+
+.styled-list li {
+    position: relative
+}
+
+.styled-list li:before {
+    content: "\f00c";
+    font-family: icomoon;
+    color: inherit;
+    top: 0;
+    left: -1.6em;
+    position: absolute
+}
+
+@media (min-width:768px) {
+    .styled-list {
+        line-height: 1.1em
+    }
+
+    .styled-list,
+    .styled-list ol,
+    .styled-list ul {
+        padding-left: 2.7em
+    }
+
+    .styled-list li {
+        margin-bottom: 1.16em
+    }
+
+    .styled-list li:before {
+        left: -2.7em
+    }
+
+    .dl-horizontal dt {
+        float: left;
+        width: 100px;
+        overflow: hidden;
+        clear: left
+    }
+
+    .dl-horizontal dd {
+        margin-left: 112px
+    }
+}
+
+.amit-icon-list {
+   
+    line-height: 1.1em;
+    padding-left: 0
+}
+
+.amit-icon-list li {
+    position: relative;
+    padding: .35em 0 .35em 2.5em;
+    margin-bottom: .9em;
+   
+}
+
+.amit-icon-list .amit-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.7em
+}
+
+.amit-icon-list-col3:after {
+    display: block;
+    clear: both
+}
+
+@media (min-width:480px) and (max-width:767px) {
+    .amit-icon-list-col3 li {
+  
+        width: 50%;
+        float: left
+    }
+
+    .amit-icon-list-col3 li:nth-child(2n+1) {
+        clear: left
+    }
+}
+
+@media (min-width:768px) {
+    .amit-icon-list-col3 li {
+        width: 33.33%;
+        float: left
+    }
+
+    .amit-icon-list-col3 li:nth-child(3n+1) {
+        clear: left
+    }
+}
+
+.clearfix:after,
+.dl-horizontal dd:after,
+.row:after {
+    clear: both
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 22px
+}
+
+caption,
+td,
+th {
+    text-align: left
+}
+
+td,
+th {
+    padding: 20px 8px;
+    vertical-align: top;
+    border-bottom: 1px solid transparent
+}
+
+table>thead>tr>th {
+    font-size: .8em;
+    line-height: 1.1;
+    padding-top: 0;
+    padding-bottom: 8px
+}
+
+.table-fixed {
+    table-layout: fixed
+}
+
+@media (max-width:767px) {
+
+    .table-responsive,
+    .table-responsive tbody,
+    .table-responsive td,
+    .table-responsive th,
+    .table-responsive thead,
+    .table-responsive tr {
+        display: block
+    }
+
+    .table-responsive thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px
+    }
+
+    .table-responsive tbody tr {
+        margin-bottom: 22px
+    }
+
+    .table-responsive tbody td,
+    .table-responsive tbody th {
+        position: relative;
+        padding: .5em 0 .5em 50%
+    }
+
+    .table-responsive tbody td:before,
+    .table-responsive tbody th:before {
+        content: attr(data-title);
+        position: absolute;
+        top: .5em;
+        left: 0;
+        width: 45%;
+        white-space: nowrap
+    }
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+.valign-cell,
+img {
+    vertical-align: middle
+}
+
+img {
+    border: 0;
+    display: inline-block
+}
+
+figure {
+    margin: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+.title,
+.title-lg,
+optgroup {
+    font-weight: 700
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+.accordion-header,
+.btn-upper,
+.ref-author strong,
+.search-title,
+.text-upper,
+.togglebox-header,
+.widget-title,
+.widget_calendar tfoot a {
+    text-transform: uppercase
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid #f3f3f3;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical
+}
+
+.form-item,
+input[type=url],
+input[type=tel],
+input[type=time],
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=search],
+input[type=password],
+input[type=week],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=month],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 10px 15px;
+    line-height: 20px;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    background-image: none;
+    border: 1px solid transparent;
+    transition: border .5s cubic-bezier(.23, 1, .32, 1) 0s
+}
+
+.gallery-caption,
+.wp-caption {
+    color: inherit;
+    font-family: "Noto Sans", sans-serif
+}
+
+textarea,
+textarea.form-item {
+    height: 150px
+}
+
+.form-item.error {
+    border-color: #fa958b
+}
+
+.form-label {
+    display: block;
+    line-height: 1.1em;
+    font-size: .82em;
+    letter-spacing: .02em;
+    margin-bottom: 5px
+}
+
+.clearfix:after,
+.clearfix:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.row:after,
+.row:before {
+    content: " ";
+    display: table
+}
+
+.form-group {
+    margin-bottom: 15px
+}
+
+.form-submit {
+    margin-top: 2.1em
+}
+
+@media (min-width:768px) {
+    .form-label {
+        width: 100px;
+        float: left;
+        padding-top: .513em;
+        text-align: right
+    }
+
+    .form-item-wrap {
+        margin-left: 125px
+    }
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.col-xxs-1 {
+    width: 8.33333%
+}
+
+.col-xxs-2 {
+    width: 16.66667%
+}
+
+.col-xxs-3 {
+    width: 25%
+}
+
+.col-xxs-4 {
+    width: 33.33333%
+}
+
+.col-xxs-5 {
+    width: 41.66667%
+}
+
+.col-xxs-6 {
+    width: 50%
+}
+
+.col-xxs-7 {
+    width: 58.33333%
+}
+
+.col-xxs-8 {
+    width: 66.66667%
+}
+
+.col-xxs-9 {
+    width: 75%
+}
+
+.col-xxs-10 {
+    width: 83.33333%
+}
+
+.col-xxs-11 {
+    width: 91.66667%
+}
+
+.col-xxs-12 {
+    width: 100%
+}
+
+.col-xxs-offset-0 {
+    margin-left: 0
+}
+
+.col-xxs-offset-1 {
+    margin-left: 8.33333%
+}
+
+.col-xxs-offset-2 {
+    margin-left: 16.66667%
+}
+
+.col-xxs-offset-3 {
+    margin-left: 25%
+}
+
+.col-xxs-offset-4 {
+    margin-left: 33.33333%
+}
+
+.col-xxs-offset-5 {
+    margin-left: 41.66667%
+}
+
+.col-xxs-offset-6 {
+    margin-left: 50%
+}
+
+.col-xxs-offset-7 {
+    margin-left: 58.33333%
+}
+
+.col-xxs-offset-8 {
+    margin-left: 66.66667%
+}
+
+.col-xxs-offset-9 {
+    margin-left: 75%
+}
+
+.col-xxs-offset-10 {
+    margin-left: 83.33333%
+}
+
+.col-xxs-offset-11 {
+    margin-left: 91.66667%
+}
+
+.col-xxs-offset-12 {
+    margin-left: 100%
+}
+
+@media (min-width:480px) {
+
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        float: left
+    }
+
+    .col-xs-1 {
+        width: 8.33333%
+    }
+
+    .col-xs-2 {
+        width: 16.66667%
+    }
+
+    .col-xs-3 {
+        width: 25%
+    }
+
+    .col-xs-4 {
+        width: 33.33333%
+    }
+
+    .col-xs-5 {
+        width: 41.66667%
+    }
+
+    .col-xs-6 {
+        width: 50%
+    }
+
+    .col-xs-7 {
+        width: 58.33333%
+    }
+
+    .col-xs-8 {
+        width: 66.66667%
+    }
+
+    .col-xs-9 {
+        width: 75%
+    }
+
+    .col-xs-10 {
+        width: 83.33333%
+    }
+
+    .col-xs-11 {
+        width: 91.66667%
+    }
+
+    .col-xs-12 {
+        width: 100%
+    }
+
+    .col-xs-offset-0 {
+        margin-left: 0
+    }
+
+    .col-xs-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .col-xs-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .col-xs-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-xs-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .col-xs-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .col-xs-offset-6 {
+        margin-left: 50%
+    }
+
+    .col-xs-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .col-xs-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .col-xs-offset-9 {
+        margin-left: 75%
+    }
+
+    .col-xs-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .col-xs-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .col-xs-offset-12 {
+        margin-left: 100%
+    }
+}
+
+@media (min-width:768px) {
+
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9 {
+        float: left
+    }
+
+    .col-sm-1 {
+        width: 8.33333%
+    }
+
+    .col-sm-2 {
+        width: 16.66667%
+    }
+
+    .col-sm-3 {
+        width: 25%
+    }
+
+    .col-sm-4 {
+        width: 33.33333%
+    }
+
+    .col-sm-5 {
+        width: 41.66667%
+    }
+
+    .col-sm-6 {
+        width: 50%
+    }
+
+    .col-sm-7 {
+        width: 58.33333%
+    }
+
+    .col-sm-8 {
+        width: 66.66667%
+    }
+
+    .col-sm-9 {
+        width: 75%
+    }
+
+    .col-sm-10 {
+        width: 83.33333%
+    }
+
+    .col-sm-11 {
+        width: 91.66667%
+    }
+
+    .col-sm-12 {
+        width: 100%
+    }
+
+    .col-sm-offset-0 {
+        margin-left: 0
+    }
+
+    .col-sm-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .col-sm-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .col-sm-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-sm-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .col-sm-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .col-sm-offset-6 {
+        margin-left: 50%
+    }
+
+    .col-sm-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .col-sm-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .col-sm-offset-9 {
+        margin-left: 75%
+    }
+
+    .col-sm-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .col-sm-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .col-sm-offset-12 {
+        margin-left: 100%
+    }
+}
+
+@media (min-width:992px) {
+
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9 {
+        float: left
+    }
+
+    .col-md-1 {
+        width: 8.33333%
+    }
+
+    .col-md-2 {
+        width: 16.66667%
+    }
+
+    .col-md-3 {
+        width: 25%
+    }
+
+    .col-md-4 {
+        width: 33.33333%
+    }
+
+    .col-md-5 {
+        width: 41.66667%
+    }
+
+    .col-md-6 {
+        width: 50%
+    }
+
+    .col-md-7 {
+        width: 58.33333%
+    }
+
+    .col-md-8 {
+        width: 66.66667%
+    }
+
+    .col-md-9 {
+        width: 75%
+    }
+
+    .col-md-10 {
+        width: 83.33333%
+    }
+
+    .col-md-11 {
+        width: 91.66667%
+    }
+
+    .col-md-12 {
+        width: 100%
+    }
+
+    .col-md-offset-0 {
+        margin-left: 0
+    }
+
+    .col-md-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .col-md-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .col-md-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-md-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .col-md-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .col-md-offset-6 {
+        margin-left: 50%
+    }
+
+    .col-md-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .col-md-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .col-md-offset-9 {
+        margin-left: 75%
+    }
+
+    .col-md-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .col-md-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .col-md-offset-12 {
+        margin-left: 100%
+    }
+}
+
+@media (min-width:1200px) {
+
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9 {
+        float: left
+    }
+
+    .col-lg-1 {
+        width: 8.33333%
+    }
+
+    .col-lg-2 {
+        width: 16.66667%
+    }
+
+    .col-lg-3 {
+        width: 25%
+    }
+
+    .col-lg-4 {
+        width: 33.33333%
+    }
+
+    .col-lg-5 {
+        width: 41.66667%
+    }
+
+    .col-lg-6 {
+        width: 50%
+    }
+
+    .col-lg-7 {
+        width: 58.33333%
+    }
+
+    .col-lg-8 {
+        width: 66.66667%
+    }
+
+    .col-lg-9 {
+        width: 75%
+    }
+
+    .col-lg-10 {
+        width: 83.33333%
+    }
+
+    .col-lg-11 {
+        width: 91.66667%
+    }
+
+    .col-lg-12 {
+        width: 100%
+    }
+
+    .col-lg-offset-0 {
+        margin-left: 0
+    }
+
+    .col-lg-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .col-lg-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .col-lg-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-lg-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .col-lg-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .col-lg-offset-6 {
+        margin-left: 50%
+    }
+
+    .col-lg-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .col-lg-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .col-lg-offset-9 {
+        margin-left: 75%
+    }
+
+    .col-lg-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .col-lg-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .col-lg-offset-12 {
+        margin-left: 100%
+    }
+}
+
+.clear-mrg>:last-child {
+    margin-bottom: 0 !important
+}
+
+.clear-btn {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: 0 0
+}
+
+.hidden {
+    display: none
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.screen-reader-text,
+.updated:not(.published) {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important
+}
+
+.mb-0 {
+    margin-bottom: 0
+}
+
+.mb-5 {
+    margin-bottom: 5px
+}
+
+.mb-10 {
+    margin-bottom: 10px
+}
+
+.mb-15 {
+    margin-bottom: 15px
+}
+
+.mb-20 {
+    margin-bottom: 20px
+}
+
+.mb-25 {
+    margin-bottom: 25px
+}
+
+.mb-30 {
+    margin-bottom: 30px
+}
+
+.mb-35 {
+    margin-bottom: 35px
+}
+
+.mb-40 {
+    margin-bottom: 40px
+}
+
+.mb-45 {
+    margin-bottom: 45px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.mb-55 {
+    margin-bottom: 55px
+}
+
+.mb-60 {
+    margin-bottom: 60px
+}
+
+.mb-65 {
+    margin-bottom: 65px
+}
+
+.mb-70 {
+    margin-bottom: 70px
+}
+
+.mt-0 {
+    margin-top: 0
+}
+
+.mt-5 {
+    margin-top: 5px
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-15 {
+    margin-top: 15px
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.mt-25 {
+    margin-top: 25px
+}
+
+.mt-30 {
+    margin-top: 30px
+}
+
+.mt-35 {
+    margin-top: 35px
+}
+
+.mt-40 {
+    margin-top: 40px
+}
+
+.mt-45 {
+    margin-top: 45px
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.mt-55 {
+    margin-top: 55px
+}
+
+.mt-60 {
+    margin-top: 60px
+}
+
+.mt-65 {
+    margin-top: 65px
+}
+
+.mt-70 {
+    margin-top: 70px
+}
+
+.brd-btm {
+    border-bottom: 1px solid transparent
+}
+
+.valign-table {
+    width: 100%;
+    height: 100%;
+    display: table
+}
+
+.valign-cell {
+    display: table-cell
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-lead {
+    font-size: 1.5em
+}
+
+.text-thin {
+    font-weight: 400
+}
+
+.amit-bw {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all .15s linear 0s
+}
+
+.amit-bw:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+
+.mobile.lock-scroll,
+.mobile.lock-scroll .wrapper,
+.mobile.lock-scroll body {
+    height: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.visible-lg,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block,
+.visible-md,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-sm,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-xs,
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block {
+    display: none !important
+}
+
+@media (max-width:480px) {
+    .hidden-xxs {
+        display: none !important
+    }
+}
+
+@media (max-width:767px) {
+
+    .visible-xs,
+    .visible-xs-block {
+        display: block !important
+    }
+
+    .visible-xs-inline {
+        display: inline !important
+    }
+
+    .visible-xs-inline-block {
+        display: inline-block !important
+    }
+
+    .hidden-xs {
+        display: none !important
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .visible-sm,
+    .visible-sm-block {
+        display: block !important
+    }
+
+    .visible-sm-inline {
+        display: inline !important
+    }
+
+    .visible-sm-inline-block {
+        display: inline-block !important
+    }
+
+    .hidden-sm {
+        display: none !important
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .visible-md,
+    .visible-md-block {
+        display: block !important
+    }
+
+    .visible-md-inline {
+        display: inline !important
+    }
+
+    .visible-md-inline-block {
+        display: inline-block !important
+    }
+
+    .hidden-md {
+        display: none !important
+    }
+}
+
+@media (min-width:1200px) {
+
+    .visible-lg,
+    .visible-lg-block {
+        display: block !important
+    }
+
+    .visible-lg-inline {
+        display: inline !important
+    }
+
+    .visible-lg-inline-block {
+        display: inline-block !important
+    }
+
+    .hidden-lg {
+        display: none !important
+    }
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%
+}
+
+.gallery-icon img {
+    margin: 0 auto
+}
+
+.gallery-caption {
+    opacity: .75;
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: .5em 0
+}
+
+.apcal_btn,
+.btn,
+input[type=submit] {
+    font-family: inherit;
+    letter-spacing: .05em;
+    -webkit-appearance: none;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none
+}
+
+.editor figure {
+    margin: 44px 0
+}
+
+.title-lg {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 50px
+}
+
+.title-lg+.title-thin {
+    margin-top: -35px
+}
+
+.title {
+    font-size: 24px
+}
+
+.title-sm {
+    font-size: 20px
+}
+
+.title-thin {
+    font-size: 1.35em;
+    font-weight: 400;
+    margin-bottom: 1.571em
+}
+
+.btn,
+input[type=submit] {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 25px;
+    display: inline-block;
+    border-radius: 35px;
+    background: 0 0;
+    border: 2px solid transparent;
+    cursor: pointer;
+    box-shadow: transparent 0 0 0;
+    transition: all .5s cubic-bezier(.23, 1, .32, 1) 0s
+}
+
+.btn:hover,
+input[type=submit]:hover {
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, .25)
+}
+
+.btn .amit-icon {
+    font-size: 1.2em;
+    line-height: 1em;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: .8em
+}
+
+.btn-lg {
+    font-size: 15px;
+    padding: 12px 35px
+}
+
+.btn-sm {
+    font-size: 13px;
+    padding: 6px 20px
+}
+
+.btn-thin {
+    font-weight: 400
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    margin: 0 auto
+}
+
+.btn.disabled,
+.btn[disabled] {
+    cursor: not-allowed;
+    opacity: .65
+}
+
+.btn.disabled:hover,
+.btn[disabled]:hover {
+    box-shadow: none
+}
+
+.btn-icon {
+    width: 63px;
+    height: 63px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%
+}
+
+.text-dropcup-sq,
+.tooltip:after {
+    border-radius: 4px;
+    text-align: center
+}
+
+.btn-icon .amit-icon {
+    font-size: 32px;
+    margin: 0
+}
+
+.btn-shade {
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, .25)
+}
+
+.btn-shade:hover {
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, .25)
+}
+
+.btn-group {
+    display: block;
+    margin-left: -5px;
+    margin-right: -5px
+}
+
+.btn-group .btn {
+    margin: 5px
+}
+
+.btn-group .btn-block {
+    margin: 5px auto
+}
+
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted
+}
+
+.tooltip:after,
+.tooltip:before {
+    position: absolute;
+    transition: all .4s ease-in-out
+}
+
+.tooltip:after {
+    content: attr(data-tooltip);
+    box-shadow: 0 2px 9px 4px rgba(0, 0, 0, .1);
+    white-space: nowrap;
+    color: #000;
+    opacity: 0;
+    left: 0;
+    bottom: 125%;
+    padding: 3px 7px
+}
+
+.alert .close,
+.alert a {
+    color: inherit
+}
+
+.tooltip:hover:after,
+.tooltip:hover:before {
+    opacity: 1;
+    visibility: visible
+}
+
+.share-box .share-icons,
+.slick-loading .slick-slide,
+.slick-loading .slick-track,
+.tooltip:before {
+    visibility: hidden
+}
+
+.tooltip:before {
+    content: "";
+    top: -5px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -7px;
+    border-width: 7px 7px 0;
+    border-style: solid;
+    border-color: transparent;
+    opacity: 0
+}
+
+.text-dropcup,
+.text-dropcup-sq {
+    display: inline-block;
+    margin-right: 3px
+}
+
+.text-dropcup {
+    font-size: 2.2em;
+    font-weight: 600
+}
+
+.text-dropcup-sq {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1em;
+    padding: 2px 6px 3px;
+    width: 1.25em
+}
+
+.tabs {
+    margin: 22px 0
+}
+
+.tabs .tabs-menu {
+    margin: 0 0 30px;
+    padding: 0 0 9px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid
+}
+
+.tabs .tabs-menu li {
+    margin-bottom: 3px
+}
+
+.tabs .tabs-menu a {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 6px 15px;
+    display: block;
+    border-radius: 35px
+}
+
+.tabs .tab-content {
+    display: none
+}
+
+.tabs-horizontal .tabs-menu li {
+    margin-left: 3px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+@media (min-width:768px) {
+    .tabs-vertical {
+        position: relative
+    }
+
+    .tabs-vertical:before {
+        content: '';
+        left: 170px;
+        top: 0;
+        height: 100%;
+        width: 0;
+        border-left-width: 1px;
+        border-left-style: solid;
+        position: absolute
+    }
+
+    .tabs-vertical .tabs-menu {
+        width: 150px;
+        float: left;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border: 0;
+        margin-bottom: 0
+    }
+
+    .tabs-vertical .tabs-menu li {
+        padding: 7px 0;
+        margin-bottom: 0
+    }
+
+    .tabs-vertical .tabs-content {
+        margin-left: 170px;
+        padding: 14px 0 14px 20px
+    }
+}
+
+.alert {
+    position: relative;
+    padding: 13px 30px 13px 15px;
+    margin-bottom: 22px;
+    border-radius: 4px
+}
+
+.alert .close {
+    top: 14px;
+    right: 15px;
+    position: absolute;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: 0 0;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.alert-success {
+    color: #5cb85c;
+    background-color: #c7e6c7
+}
+
+.alert-info {
+    color: #5bc0de;
+    background-color: #daf1f8
+}
+
+.alert-warning {
+    color: #f0ad4e;
+    background-color: #fceedb
+}
+
+.alert-danger {
+    color: #d9534f;
+    background-color: #f4cecd
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center
+}
+
+.pagination .page-numbers {
+    height: 25px;
+    line-height: 25px;
+    font-size: .875em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 8px
+}
+
+.page-numbers.next .amit-icon,
+.page-numbers.prev .amit-icon {
+    font-size: .698em;
+    line-height: 25px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.progress-title {
+    font-size: .85em;
+    line-height: 1.2em;
+    display: block;
+    margin-bottom: .7em
+}
+
+.progress-chart {
+    text-align: center;
+    display: inline-block
+}
+
+.progress-chart .progress-title {
+    margin-top: 10px
+}
+
+.progress-chart .progress-bar {
+    height: 93px;
+    width: 93px;
+    margin: 0 auto;
+    position: relative
+}
+
+.progress-chart .progress-bar svg {
+    height: 100%;
+    display: block
+}
+
+.progress-line {
+    margin-bottom: 20px
+}
+
+.progress-line .progress-title {
+    padding-right: 3.8em
+}
+
+.progress-line .progress-bar {
+    width: 100%;
+    height: 5px
+}
+
+.progress-line svg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 5px
+}
+
+.progress-bullets {
+    margin-bottom: 1.375em
+}
+
+.progress-bullets .progress-bar {
+    position: relative;
+    line-height: .938em
+}
+
+.progress-bullets .bullets-empty,
+.progress-bullets .bullets-fill {
+    white-space: nowrap
+}
+
+.progress-bullets .bullets-fill {
+    top: 3px;
+    left: 0;
+    display: block;
+    position: absolute;
+    overflow: hidden
+}
+
+.amit-social li,
+.progress-bullets .bullet {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.progress-bullets .bullet {
+    width: .938em;
+    height: .938em;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid
+}
+
+.progress-bullets .progress-text {
+    font-size: .8em;
+    line-height: .938em
+}
+
+.amit-desktop .progress-bullets.amit-animate .bullet {
+    opacity: 0
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet {
+    -webkit-animation: FadeIn 250ms linear;
+    animation: FadeIn 250ms linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(2) {
+    -webkit-animation-delay: 50ms;
+    animation-delay: 50ms
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(3) {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(4) {
+    -webkit-animation-delay: 145ms;
+    animation-delay: 145ms
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(5) {
+    -webkit-animation-delay: 175ms;
+    animation-delay: 175ms
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(6) {
+    -webkit-animation-delay: 210ms;
+    animation-delay: 210ms
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(7) {
+    -webkit-animation-delay: 240ms;
+    animation-delay: 240ms
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(8) {
+    -webkit-animation-delay: 265ms;
+    animation-delay: 265ms
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(9) {
+    -webkit-animation-delay: 290ms;
+    animation-delay: 290ms
+}
+
+.amit-desktop .progress-bullets.amit-animated .bullet:nth-child(10) {
+    -webkit-animation-delay: 310ms;
+    animation-delay: 310ms
+}
+
+@media (min-width:768px) {
+    .progress-bullets .bullet {
+        margin-right: .31em
+    }
+}
+
+.amit-social {
+    margin: 22px -12px
+}
+
+.amit-social li {
+    margin: 5px 12px
+}
+
+.amit-social a:hover {
+    opacity: .7
+}
+
+.amit-social .amit-icon {
+    font-size: 1.25em
+}
+
+.share-box {
+    margin-bottom: 17px
+}
+
+.share-box .share-btn {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px
+}
+
+@media (min-width:768px) {
+    .share-box.text-left .share-btn {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 0
+    }
+
+    .share-box.text-right .share-btn {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 0
+    }
+}
+
+.share-box div[class^=addthis_inline_share_toolbox] {
+    clear: none !important
+}
+
+#amitFooter,
+.pf-grid:after,
+.slick-track:after {
+    clear: both
+}
+
+.share-box .at-share-btn-elements a,
+.share-box .share-icons {
+    opacity: 0
+}
+
+.share-box.hovered .share-icons {
+    opacity: 1;
+    visibility: visible
+}
+
+.share-box.hovered .at-share-btn-elements a {
+    -webkit-animation: FadeIn 250ms linear;
+    animation: FadeIn 250ms linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(2) {
+    -webkit-animation-delay: 50ms;
+    animation-delay: 50ms
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(3) {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(4) {
+    -webkit-animation-delay: 145ms;
+    animation-delay: 145ms
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(5) {
+    -webkit-animation-delay: 175ms;
+    animation-delay: 175ms
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(6) {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(7) {
+    -webkit-animation-delay: 220ms;
+    animation-delay: 220ms
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(8) {
+    -webkit-animation-delay: 235ms;
+    animation-delay: 235ms
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(9) {
+    -webkit-animation-delay: 245ms;
+    animation-delay: 245ms
+}
+
+.share-box.hovered .at-share-btn-elements a:nth-child(10) {
+    -webkit-animation-delay: 250ms;
+    animation-delay: 250ms
+}
+
+.share-box.closing .at-share-btn-elements a {
+    -webkit-animation: FadeOut 250ms linear;
+    animation: FadeOut 250ms linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(1) {
+    -webkit-animation-delay: 250ms;
+    animation-delay: 250ms
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(2) {
+    -webkit-animation-delay: 245ms;
+    animation-delay: 245ms
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(3) {
+    -webkit-animation-delay: 235ms;
+    animation-delay: 235ms
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(4) {
+    -webkit-animation-delay: 220ms;
+    animation-delay: 220ms
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(5) {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(6) {
+    -webkit-animation-delay: 175ms;
+    animation-delay: 175ms
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(7) {
+    -webkit-animation-delay: 145ms;
+    animation-delay: 145ms
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(8) {
+    -webkit-animation-delay: .1s;
+    animation-delay: .1s
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(9) {
+    -webkit-animation-delay: 50ms;
+    animation-delay: 50ms
+}
+
+.share-box.closing .at-share-btn-elements a:nth-child(10) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.avatar {
+    border-radius: 50%
+}
+
+.avatar-42 {
+    width: 42px;
+    height: 42px
+}
+
+.avatar-195 {
+    width: 195px;
+    height: 195px
+}
+
+.toggle-cont {
+    display: none;
+    margin: 22px 0
+}
+
+.toggle-cont pre {
+    margin: 0
+}
+
+.accordion,
+.togglebox {
+    list-style: none;
+    margin: 22px 0;
+    padding: 0
+}
+
+.accordion>li,
+.togglebox>li {
+    margin-bottom: 5px
+}
+
+.accordion-content,
+.togglebox-content {
+    display: none;
+    padding: 15px 20px
+}
+
+.accordion-header,
+.togglebox-header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+    transition: background-color .15s linear 0s;
+    position: relative
+}
+
+.accordion-header:before,
+.togglebox-header:before {
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 4px;
+    z-index: -1;
+    transition: opacity .2s ease-out
+}
+
+.accordion li.active .accordion-header:before,
+.accordion-header:hover:before,
+.togglebox li.active .togglebox-header:before,
+.togglebox-header:hover:before {
+    opacity: .4
+}
+
+#amitOverlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .541176);
+    will-change: opacity;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    transition: opacity .4s cubic-bezier(.23, 1, .32, 1) 0s;
+    z-index: 1200
+}
+
+.apcal_btn {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 25px;
+    display: inline-block;
+    border-radius: 35px;
+    background: 0 0;
+    border: 2px solid transparent;
+    cursor: pointer;
+    box-shadow: transparent 0 0 0;
+    transition: all .5s cubic-bezier(.23, 1, .32, 1) 0s;
+    text-shadow: none
+}
+
+.apcal_btn:focus {
+    outline: 0
+}
+
+.apcal_btn:hover {
+    background: 0 0;
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, .25)
+}
+
+.apcal_btn [class*=icon-],
+.apcal_modal-info .icon-remove {
+    font-family: icomoon;
+    background: 0 0;
+    font-style: normal;
+    vertical-align: middle
+}
+
+.apcal_btn [class*=icon-] {
+    margin: 0 .8em 0 0
+}
+
+.apcal_btn#next1 [class*=icon-] {
+    margin: 0 0 0 .8em
+}
+
+.apcal_btn#next1 {
+    float: right
+}
+
+.apcal_modal-info .icon-remove {
+    text-shadow: none;
+    margin-top: -8px
+}
+
+.apcal_modal-info .icon-remove:before {
+    content: "\f00d"
+}
+
+.apcal_btn .icon-calendar:before {
+    content: "\e91b"
+}
+
+.apcal_btn .icon-arrow-right:before {
+    content: "\f054"
+}
+
+.apcal_btn .icon-arrow-left:before {
+    content: "\f053"
+}
+
+.apcal_btn .icon-ok:before {
+    content: "\f00c"
+}
+
+#addappointment {
+    margin-bottom: 15px
+}
+
+.fc-header-left .fc-button-content {
+    padding: 0
+}
+
+.fc-state-default,
+.fc-state-default .fc-button-inner {
+    border: 0;
+    background: 0 0
+}
+
+.fc table {
+    border-spacing: 10px;
+    margin-bottom: 5px
+}
+
+.fc-grid th {
+    padding: 20px 5px
+}
+
+.fc-grid td {
+    text-align: center
+}
+
+.fc-grid .fc-day-number {
+    float: none;
+    font-weight: 700
+}
+
+.fc-border-separate td,
+.fc-border-separate th {
+    border: 0
+}
+
+.div_calendar {
+    margin-left: 0 !important
+}
+
+.apcal_alert {
+    padding-right: 15px
+}
+
+.apcal_alert-block {
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    margin-bottom: 40px
+}
+
+#timesloatbox {
+    font-size: 13px
+}
+
+.apcal_modal-body .apcal_alert-info {
+    font-size: 16px;
+    background: 0 0;
+    text-align: left;
+    border-bottom: solid 1px transparent;
+    border-radius: 0
+}
+
+.apcal_modal #bordercssremove td {
+    border: 0
+}
+
+.apcal_modal #bordercssremove tr:not(#buttonbox) td:nth-child(2) strong {
+    display: none
+}
+
+.apcal_modal #bordercssremove tr td:first-child strong {
+    font-weight: 400
+}
+
+#calendar.fc .uneditable-input,
+#calendar.fc input[type=search],
+#calendar.fc input[type=text],
+#calendar.fc input[type=password],
+#calendar.fc input[type=datetime],
+#calendar.fc input[type=datetime-local],
+#calendar.fc input[type=date],
+#calendar.fc input[type=month],
+#calendar.fc input[type=time],
+#calendar.fc input[type=week],
+#calendar.fc input[type=email],
+#calendar.fc input[type=url],
+#calendar.fc input[type=tel],
+#calendar.fc input[type=color],
+#calendar.fc input[type=number],
+#calendar.fc textarea {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    padding: 10px 15px;
+    line-height: 20px;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    background-image: none;
+    transition: border .5s cubic-bezier(.23, 1, .32, 1) 0s
+}
+
+.cr-slider .slick-next:before,
+.cr-slider .slick-prev:before,
+.slick-next:before,
+.slick-prev:before {
+    font-family: icomoon;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#calendar.fc .uneditable-input:focus,
+#calendar.fc input[type=search]:focus,
+#calendar.fc input[type=text]:focus,
+#calendar.fc input[type=password]:focus,
+#calendar.fc input[type=datetime]:focus,
+#calendar.fc input[type=datetime-local]:focus,
+#calendar.fc input[type=date]:focus,
+#calendar.fc input[type=month]:focus,
+#calendar.fc input[type=time]:focus,
+#calendar.fc input[type=week]:focus,
+#calendar.fc input[type=email]:focus,
+#calendar.fc input[type=url]:focus,
+#calendar.fc input[type=tel]:focus,
+#calendar.fc input[type=color]:focus,
+#calendar.fc input[type=number]:focus,
+#calendar.fc textarea:focus {
+    border: 0;
+    box-shadow: none
+}
+
+.apcal_modal #buttonbox td {
+    text-align: right
+}
+
+.apcal_modal #buttonbox .apcal_btn {
+    margin-top: 20px
+}
+
+.fc-event {
+    border: 0;
+    background: 0 0 !important
+}
+
+.fc-event .fc-event-inner {
+    border: 0;
+    padding: 0 5px
+}
+
+@media screen and (max-width:767px) {
+    .fc-header-title h2 {
+        font-size: 14px;
+        margin-bottom: 0
+    }
+}
+
+@media screen and (max-width:580px) {
+    .fc-header td {
+        white-space: nowrap;
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+
+    .fc-header .fc-header-center {
+        padding: 10px 5px
+    }
+
+    .fc-header-title {
+        vertical-align: middle
+    }
+
+    .fc-header .fc-header-right {
+        padding-top: 1em
+    }
+
+    .apcal_modal {
+        width: 300px;
+        margin-left: -150px
+    }
+
+    .apcal_modal #secdiv {
+        float: left !important;
+        margin-top: 25px;
+        clear: both
+    }
+
+    .apcal_modal #bordercssremove td {
+        display: block;
+        width: 100%
+    }
+
+    .apcal_modal #buttonbox td:first-child {
+        display: none
+    }
+
+    .apcal_modal .apcal-error {
+        width: auto !important
+    }
+
+    .fc-view-month {
+        overflow-x: auto
+    }
+
+    .fc-widget-header {
+        min-width: 75px
+    }
+}
+
+.apcal_modal .apcal-error {
+    color: #d9534f
+}
+
+.hljs {
+    padding: 1em .8em
+}
+
+.hljs code {
+    color: inherit;
+    padding: 0;
+    background: 0 0
+}
+
+.mCustomScrollbar {
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom
+}
+
+.mCustomScrollbar.mCS_no_scrollbar,
+.mCustomScrollbar.mCS_touch_action {
+    -ms-touch-action: auto;
+    touch-action: auto
+}
+
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+    outline: 0;
+    direction: ltr
+}
+
+.mCSB_container {
+    overflow: hidden;
+    width: auto;
+    height: auto
+}
+
+.mCSB_inside>.mCSB_container {
+    margin-right: 30px
+}
+
+.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-left: 0
+}
+
+.mCSB_scrollTools {
+    position: absolute;
+    width: 16px;
+    height: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)"
+}
+
+.mCSB_outside+.mCSB_scrollTools {
+    right: -26px
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_scrollTools,
+.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
+    right: auto;
+    left: 0
+}
+
+.mCS-dir-rtl>.mCSB_outside+.mCSB_scrollTools {
+    left: -26px
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto
+}
+
+.mCSB_scrollTools a+.mCSB_draggerContainer {
+    margin: 20px 0
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    width: 2px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 16px
+}
+
+.mCSB_scrollTools .mCSB_dragger {
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    z-index: 1
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    position: relative;
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 16px;
+    text-align: center
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    width: 12px
+}
+
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    width: 8px
+}
+
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonUp {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+    bottom: 0
+}
+
+.mCSB_horizontal.mCSB_inside>.mCSB_container {
+    margin-right: 0;
+    margin-bottom: 30px
+}
+
+.mCSB_horizontal.mCSB_outside>.mCSB_container {
+    min-height: 100%
+}
+
+.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: auto;
+    height: 16px;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.mCustomScrollBox+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.mCustomScrollBox+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: -26px
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal a+.mCSB_draggerContainer {
+    margin: 0 20px
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 2px;
+    margin: 7px 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 30px;
+    height: 100%;
+    left: 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto
+}
+
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    height: 12px;
+    margin: 2px auto
+}
+
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    height: 8px;
+    margin: 4px 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft,
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft {
+    left: 0
+}
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    right: 0
+}
+
+.mCSB_container_wrapper {
+    position: absolute;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 30px;
+    margin-bottom: 30px
+}
+
+.mCSB_container_wrapper>.mCSB_container {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box
+}
+
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_vertical {
+    bottom: 20px
+}
+
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    right: 20px
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden+.mCSB_scrollTools.mCSB_scrollTools_vertical {
+    bottom: 0
+}
+
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    right: 0
+}
+
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    left: 20px
+}
+
+.mCS-dir-rtl>.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden+.mCSB_scrollTools~.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    left: 0
+}
+
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container_wrapper {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden>.mCSB_container {
+    padding-right: 0
+}
+
+.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden>.mCSB_container {
+    padding-bottom: 0
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside>.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden {
+    margin-bottom: 0
+}
+
+.mCSB_scrollTools,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight,
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    transition: opacity .2s ease-in-out, background-color .2s ease-in-out
+}
+
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar {
+    transition: width .2s ease-out .2s, height .2s ease-out .2s, margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s, opacity .2s ease-in-out, background-color .2s ease-in-out
+}
+
+.mCS-autoHide>.mCustomScrollBox>.mCSB_scrollTools,
+.mCS-autoHide>.mCustomScrollBox~.mCSB_scrollTools {
+    opacity: 0;
+    filter: "alpha(opacity=0)";
+    -ms-filter: "alpha(opacity=0)"
+}
+
+.mCS-autoHide:hover>.mCustomScrollBox>.mCSB_scrollTools,
+.mCS-autoHide:hover>.mCustomScrollBox~.mCSB_scrollTools,
+.mCustomScrollBox:hover>.mCSB_scrollTools,
+.mCustomScrollBox:hover~.mCSB_scrollTools,
+.mCustomScrollbar>.mCustomScrollBox>.mCSB_scrollTools.mCSB_scrollTools_onDrag,
+.mCustomScrollbar>.mCustomScrollBox~.mCSB_scrollTools.mCSB_scrollTools_onDrag {
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)"
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4);
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)"
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75);
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)"
+}
+
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85);
+    filter: "alpha(opacity=85)";
+    -ms-filter: "alpha(opacity=85)"
+}
+
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9);
+    filter: "alpha(opacity=90)";
+    -ms-filter: "alpha(opacity=90)"
+}
+
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight,
+.mCSB_scrollTools .mCSB_buttonUp {
+    background-image: url(https://certy.px-lab.com/wp-content/themes/certy/assets/css/mCSB_buttons.png);
+    background-repeat: no-repeat;
+    opacity: .4;
+    filter: "alpha(opacity=40)";
+    -ms-filter: "alpha(opacity=40)"
+}
+
+.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: 0 0
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: 0 -20px
+}
+
+.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: 0 -40px
+}
+
+.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: 0 -56px
+}
+
+.mCSB_scrollTools .mCSB_buttonDown:hover,
+.mCSB_scrollTools .mCSB_buttonLeft:hover,
+.mCSB_scrollTools .mCSB_buttonRight:hover,
+.mCSB_scrollTools .mCSB_buttonUp:hover {
+    opacity: .75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)"
+}
+
+.mCSB_scrollTools .mCSB_buttonDown:active,
+.mCSB_scrollTools .mCSB_buttonLeft:active,
+.mCSB_scrollTools .mCSB_buttonRight:active,
+.mCSB_scrollTools .mCSB_buttonUp:active {
+    opacity: .9;
+    filter: "alpha(opacity=90)";
+    -ms-filter: "alpha(opacity=90)"
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px 0
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -20px
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -40px
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -56px
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-light-2.mCSB_scrollTools .mCSB_draggerRail {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 1px
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 1px
+}
+
+.mCS-dark-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-dark-2.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-light-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-2.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 4px;
+    margin: 6px auto
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-light-2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px 0
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -20px
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -40px
+}
+
+.mCS-light-2.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -56px
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 1px
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 1px
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-dark-2.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px 0
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -20px
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -40px
+}
+
+.mCS-dark-2.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -56px
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-light-thick.mCSB_scrollTools .mCSB_draggerRail {
+    width: 4px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 2px
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75);
+    border-radius: 2px
+}
+
+.mCS-dark-thick.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-light-thick.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 4px;
+    margin: 6px 0
+}
+
+.mCS-dark-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 6px;
+    margin: 5px auto
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-light-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -16px 0
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -16px -20px
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -20px -40px
+}
+
+.mCS-light-thick.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -20px -56px
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 2px
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 2px
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-dark-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -96px 0
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -96px -20px
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -100px -40px
+}
+
+.mCS-dark-thick.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -100px -56px
+}
+
+.mCS-light-thin.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .1)
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 2px
+}
+
+.mCS-dark-thin.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-light-thin.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%
+}
+
+.mCS-dark-thin.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-thin.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 2px;
+    margin: 7px auto
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-dark-thin.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px 0
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -20px
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -40px
+}
+
+.mCS-dark-thin.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -56px
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .15)
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger,
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger,
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger,
+.mCS-rounded.mCSB_scrollTools .mCSB_dragger {
+    height: 14px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 14px;
+    margin: 0 1px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger,
+.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger,
+.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger,
+.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 14px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 14px;
+    margin: 1px 0
+}
+
+.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
+.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
+.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    width: 16px;
+    height: 16px;
+    margin: -1px 0
+}
+
+.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-rounded-dark.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,
+.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-rounded.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    width: 4px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
+.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,
+.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+    height: 16px;
+    width: 16px;
+    margin: 0 -1px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-rounded-dark.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,
+.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-rounded.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    height: 4px;
+    margin: 6px 0
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: 0 -72px
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: 0 -92px
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: 0 -112px
+}
+
+.mCS-rounded.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: 0 -128px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -80px -72px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -80px -92px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -80px -112px
+}
+
+.mCS-rounded-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -80px -128px
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools_vertical .mCSB_draggerRail,
+.mCS-rounded-dots.mCSB_scrollTools_vertical .mCSB_draggerRail {
+    width: 4px
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    background-color: transparent;
+    background-position: center
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_draggerRail {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAANElEQVQYV2NkIAAYiVbw//9/Y6DiM1ANJoyMjGdBbLgJQAX/kU0DKgDLkaQAvxW4HEvQFwCRcxIJK1XznAAAAABJRU5ErkJggg==);
+    background-repeat: repeat-y;
+    opacity: .3;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)"
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-rounded-dots.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    height: 4px;
+    margin: 6px 0;
+    background-repeat: repeat-x
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -16px -72px
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -16px -92px
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -20px -112px
+}
+
+.mCS-rounded-dots.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -20px -128px
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAALElEQVQYV2NkIAAYSVFgDFR8BqrBBEifBbGRTfiPZhpYjiQFBK3A6l6CvgAAE9kGCd1mvgEAAAAASUVORK5CYII=)
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -96px -72px
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -96px -92px
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -100px -112px
+}
+
+.mCS-rounded-dots-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -100px -128px
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-repeat: repeat-y;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%)
+}
+
+.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 0) 100%)
+}
+
+.mCS-3d-dark.mCSB_scrollTools_vertical .mCSB_dragger,
+.mCS-3d.mCSB_scrollTools_vertical .mCSB_dragger {
+    height: 70px
+}
+
+.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger,
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 70px
+}
+
+.mCS-3d-dark.mCSB_scrollTools,
+.mCS-3d.mCSB_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)"
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools .mCSB_draggerRail {
+    border-radius: 16px
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-3d.mCSB_scrollTools .mCSB_draggerRail {
+    width: 8px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2);
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, .5), inset -1px 0 1px rgba(255, 255, 255, .2)
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #555
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 8px
+}
+
+.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 8px;
+    margin: 4px 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .5), inset 0 -1px 1px rgba(255, 255, 255, .2)
+}
+
+.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    width: 100%;
+    height: 8px;
+    margin: 4px auto
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1);
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, .1)
+}
+
+.mCS-3d-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1)
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px
+}
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools,
+.mCS-3d-thick.mCSB_scrollTools {
+    opacity: 1;
+    filter: "alpha(opacity=30)";
+    -ms-filter: "alpha(opacity=30)"
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools,
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerContainer,
+.mCS-3d-thick.mCSB_scrollTools,
+.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer {
+    border-radius: 7px
+}
+
+.mCSB_inside+.mCS-3d-thick-dark.mCSB_scrollTools_vertical,
+.mCSB_inside+.mCS-3d-thick.mCSB_scrollTools_vertical {
+    right: 1px
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools_vertical,
+.mCS-3d-thick.mCSB_scrollTools_vertical {
+    box-shadow: inset 1px 0 1px rgba(0, 0, 0, .1), inset 0 0 14px rgba(0, 0, 0, .5)
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools_horizontal,
+.mCS-3d-thick.mCSB_scrollTools_horizontal {
+    bottom: 1px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1), inset 0 0 14px rgba(0, 0, 0, .5)
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    border-radius: 5px;
+    box-shadow: inset 1px 0 0 rgba(255, 255, 255, .4);
+    width: 12px;
+    margin: 2px;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4);
+    height: 12px;
+    width: auto
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #555
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: inset 1px 1px 16px rgba(0, 0, 0, .1)
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px
+}
+
+.mCS-3d-thick.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools {
+    box-shadow: inset 0 0 14px rgba(0, 0, 0, .2)
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools_horizontal {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1), inset 0 0 14px rgba(0, 0, 0, .2)
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    box-shadow: inset 1px 0 0 rgba(255, 255, 255, .4), inset -1px 0 0 rgba(0, 0, 0, .2)
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4), inset 0 -1px 0 rgba(0, 0, 0, .2)
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #777
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: #fff;
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: inset 1px 1px 16px rgba(0, 0, 0, .1)
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-minimal.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px
+}
+
+.mCS-3d-thick-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px
+}
+
+.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,
+.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical {
+    right: 0;
+    margin: 12px 0
+}
+
+.mCustomScrollBox.mCS-minimal+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.mCustomScrollBox.mCS-minimal+.mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.mCustomScrollBox.mCS-minimal-dark+.mCSB_scrollTools+.mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.mCustomScrollBox.mCS-minimal-dark+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: 0;
+    margin: 0 12px
+}
+
+.mCS-dir-rtl>.mCSB_outside+.mCS-minimal-dark.mCSB_scrollTools_vertical,
+.mCS-dir-rtl>.mCSB_outside+.mCS-minimal.mCSB_scrollTools_vertical {
+    left: 0;
+    right: auto
+}
+
+.mCS-minimal-dark.mCSB_scrollTools_vertical .mCSB_dragger,
+.mCS-minimal.mCSB_scrollTools_vertical .mCSB_dragger {
+    height: 50px
+}
+
+.mCS-minimal-dark.mCSB_scrollTools_horizontal .mCSB_dragger,
+.mCS-minimal.mCSB_scrollTools_horizontal .mCSB_dragger {
+    width: 50px
+}
+
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .2);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)"
+}
+
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-minimal.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .5);
+    filter: "alpha(opacity=50)";
+    -ms-filter: "alpha(opacity=50)"
+}
+
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)"
+}
+
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .5);
+    filter: "alpha(opacity=50)";
+    -ms-filter: "alpha(opacity=50)"
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-light-3.mCSB_scrollTools .mCSB_draggerRail {
+    width: 6px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px
+}
+
+.mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-light-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-light-3.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 6px;
+    margin: 5px 0
+}
+
+.mCS-dark-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-dark-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,
+.mCS-light-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-light-3.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    width: 12px
+}
+
+.mCS-dark-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-dark-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail,
+.mCS-light-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded+.mCSB_draggerRail,
+.mCS-light-3.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+    height: 12px;
+    margin: 2px 0
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px
+}
+
+.mCS-light-3.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-dark-3.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px
+}
+
+.mCS-dark-3.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset-3.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset.mCSB_scrollTools .mCSB_draggerRail {
+    width: 12px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 6px;
+    margin: 3px 5px;
+    position: absolute;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-2.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-3-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-dark.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 6px;
+    margin: 5px 3px;
+    position: absolute;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.slick-list,
+.slick-slider,
+.slick-track {
+    display: block;
+    position: relative
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-inset-2.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-inset-3-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-inset-3.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-inset-dark.mCSB_scrollTools_horizontal .mCSB_draggerRail,
+.mCS-inset.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 12px;
+    margin: 2px 0
+}
+
+.mCS-inset-2.mCSB_scrollTools .mCSB_buttonUp,
+.mCS-inset-3.mCSB_scrollTools .mCSB_buttonUp,
+.mCS-inset.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -32px -72px
+}
+
+.mCS-inset-2.mCSB_scrollTools .mCSB_buttonDown,
+.mCS-inset-3.mCSB_scrollTools .mCSB_buttonDown,
+.mCS-inset.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -32px -92px
+}
+
+.mCS-inset-2.mCSB_scrollTools .mCSB_buttonLeft,
+.mCS-inset-3.mCSB_scrollTools .mCSB_buttonLeft,
+.mCS-inset.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -40px -112px
+}
+
+.mCS-inset-2.mCSB_scrollTools .mCSB_buttonRight,
+.mCS-inset-3.mCSB_scrollTools .mCSB_buttonRight,
+.mCS-inset.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -40px -128px
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .1)
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonUp,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonUp,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonUp {
+    background-position: -112px -72px
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonDown,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonDown,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonDown {
+    background-position: -112px -92px
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonLeft,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonLeft,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonLeft {
+    background-position: -120px -112px
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_buttonRight,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_buttonRight,
+.mCS-inset-dark.mCSB_scrollTools .mCSB_buttonRight {
+    background-position: -120px -128px
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail,
+.mCS-inset-2.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, .2);
+    box-sizing: border-box
+}
+
+.mCS-inset-2-dark.mCSB_scrollTools .mCSB_draggerRail {
+    border-color: #000;
+    border-color: rgba(0, 0, 0, .2)
+}
+
+.mCS-inset-3.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .6)
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .85)
+}
+
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-inset-3.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9)
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .75)
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-inset-3-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .9)
+}
+
+.slick-slider {
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y
+}
+
+.slick-list {
+    margin: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+.slick-list:focus {
+    outline: 0
+}
+
+.slick-list .slick-list,
+.slick-list .slick-track {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-list.dragging {
+    cursor: hand
+}
+
+.slick-loading .slick-list {
+    background: url(/wp-content/themes/certy/assets/images/ajax-loader.gif) center center no-repeat
+}
+
+.slick-track {
+    top: 0;
+    left: 0
+}
+
+.slick-track:after,
+.slick-track:before {
+    content: '';
+    display: table
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%
+}
+
+.slick-slide.slick-loading img {
+    display: none
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}
+
+.slick-arrow.slick-hidden {
+    display: none
+}
+
+.slick-next,
+.slick-prev {
+    position: absolute;
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: 0 0;
+    color: transparent;
+    padding: 0;
+    border: none;
+    outline: 0;
+    z-index: 1
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: inherit;
+    line-height: 1
+}
+
+.slick-next.slick-disabled:before,
+.slick-prev.slick-disabled:before {
+    opacity: .7
+}
+
+.slick-dots {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 4px;
+    padding: 0;
+    cursor: pointer
+}
+
+.slick-dots button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    outline: 0;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    border-radius: 50%;
+    transition: opacity .2s ease-out
+}
+
+.slick-dots .slick-active button,
+.slick-dots button:hover {
+    opacity: .65
+}
+
+.cr-carousel {
+    padding: 0 15px;
+    margin: 0 0 22px
+}
+
+.cr-carousel.slick-dotted {
+    margin-bottom: 44px
+}
+
+.cr-carousel .slick-slide {
+    padding: 0 8px
+}
+
+.cr-carousel .slick-next,
+.cr-carousel .slick-prev {
+    top: 0;
+    font-size: 22px;
+    width: 24px;
+    height: 100%
+}
+
+.cr-carousel .slick-next:before,
+.cr-carousel .slick-prev:before {
+    top: 50%;
+    left: 0;
+    position: absolute;
+    margin-top: -11px
+}
+
+.cr-carousel .slick-prev {
+    left: 0
+}
+
+.cr-carousel .slick-prev:before {
+    content: '\e90c';
+    left: -5px
+}
+
+.cr-carousel .slick-next {
+    right: 0
+}
+
+.cr-carousel .slick-next:before {
+    content: '\e90b';
+    right: -5px
+}
+
+.cr-carousel .slick-dots {
+    top: 100%
+}
+
+.cr-carousel .slick-dots button {
+    width: 10px;
+    height: 10px;
+    background: #888
+}
+
+.cr-slider {
+    margin: 0 0 22px;
+    overflow: hidden
+}
+
+.cr-slider:hover .slick-prev {
+    left: 15px
+}
+
+.cr-slider:hover .slick-next {
+    right: 15px
+}
+
+.cr-slider:hover .slick-dots {
+    bottom: 15px
+}
+
+.cr-slider .slick-next,
+.cr-slider .slick-prev {
+    position: absolute;
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: 0 0;
+    color: transparent;
+    top: 50%;
+    padding: 0;
+    border: none;
+    outline: 0;
+    z-index: 1;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    transition: all .5s cubic-bezier(.23, 1, .32, 1) 0s
+}
+
+.amit-paper,
+.amit-wrapper {
+    position: relative
+}
+
+.cr-slider .slick-next:before,
+.cr-slider .slick-prev:before {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    text-shadow: -5px 5px 16px rgba(118, 95, 91, .34);
+    transition: text-shadow .2s ease-out
+}
+
+.cr-slider .slick-next:hover,
+.cr-slider .slick-prev:hover {
+    outline: 0;
+    color: transparent;
+    background: 0 0
+}
+
+.cr-slider .slick-next:hover:before,
+.cr-slider .slick-prev:hover:before {
+    text-shadow: -5px 5px 16px rgba(118, 95, 91, .6)
+}
+
+.cr-slider .slick-next.slick-disabled:before,
+.cr-slider .slick-prev.slick-disabled:before {
+    opacity: .7
+}
+
+.cr-slider .slick-prev {
+    left: -30px
+}
+
+.cr-slider .slick-prev:before {
+    content: '\f053'
+}
+
+.cr-slider .slick-next {
+    right: -30px
+}
+
+.cr-slider .slick-next:before {
+    content: '\f054'
+}
+
+.cr-slider .slick-dots {
+    bottom: -35px;
+    transition: all .5s cubic-bezier(.23, 1, .32, 1) 0s
+}
+
+.cr-slider .slick-dots button {
+    width: 13px;
+    height: 13px;
+    background: #fff
+}
+
+@media (min-width:768px) {
+    .cr-slider:hover .slick-prev {
+        left: 25px
+    }
+
+    .cr-slider:hover .slick-next {
+        right: 25px
+    }
+
+    .cr-slider:hover .slick-dots {
+        bottom: 20px
+    }
+
+    .cr-slider .slick-next:before,
+    .cr-slider .slick-prev:before {
+        font-size: 30px
+    }
+
+    .cr-slider .slick-dots button {
+        width: 17px;
+        height: 17px
+    }
+}
+
+[dir=rtl] .slick-slide {
+    float: right
+}
+
+.wpcf7-form label {
+    line-height: 2.5em;
+    font-size: .82em;
+    letter-spacing: .02em
+}
+
+span.wpcf7-not-valid-tip {
+    font-size: .83em;
+    color: #ff4328
+}
+
+.wpcf7-form-control.wpcf7-not-valid {
+    border: 1px solid #ff4328
+}
+
+.wpcf7-recaptcha {
+    margin-bottom: 22px
+}
+
+.education {
+    position: relative
+  }
+  
+  .education:before {
+    top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    content: '';
+    opacity: .5;
+    position: absolute
+  }
+  
+  .education-box {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 45px
+  }
+  
+  .education-box h3,
+  .education-logo {
+    margin-bottom: 10px
+  }
+  
+  .education-box p {
+    font-size: .875em
+  }
+  
+  .education-box:before {
+    content: "";
+    top: 9px;
+    left: -1px;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%
+  }
+  
+  .education-box h3 {
+    letter-spacing: 0;
+    font-size: .938em;
+    margin-top: 15px
+  }
+  
+  .education-box:last-child:after {
+    top: 14px;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    content: '';
+    position: absolute
+  }
+  
+  .education-date {
+    left: -20px;
+    width: 117px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    padding: 6px;
+    margin-left: 15px;
+    font-size: .625em;
+    position: relative;
+    display: inline-block
+  }
+  
+  .education-date span {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    white-space: nowrap
+  }
+  
+  .education-date:before {
+    content: "";
+    top: 0;
+    right: 100%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 11px solid transparent !important;
+    border-bottom: 11px solid transparent !important;
+    border-left: 0 solid transparent !important;
+    border-right: 7px solid transparent
+  }
+  
+  .education-company {
+    line-height: 1.1;
+    letter-spacing: 0;
+    font-size: 1em;
+    margin-bottom: 15px;
+    display: inline-block
+  }
+  
+  @media (min-width:768px) {
+  
+    .education-box:before,
+    .education:before {
+      top: 10px
+    }
+  
+    .education {
+      margin-left: 210px
+    }
+  
+    .education-box {
+      padding-right: 90px
+    }
+  
+    .education-box h3 {
+      font-size: 20px;
+      margin-bottom: 22px;
+      margin-top: 0
+    }
+  
+    .education-date {
+      margin-left: 0;
+      margin-right: 22px;
+      padding: 8px 6px;
+      font-size: .875em;
+      text-align: center;
+      position: absolute;
+      width: 160px;
+      right: 100%;
+      left: auto;
+      top: -4px
+    }
+  
+    .education-date:before {
+      display: none
+    }
+  
+    .education-date:after {
+      content: "";
+      top: 0;
+      left: 100%;
+      width: 0;
+      height: 0;
+      position: absolute;
+      border-top: 16px solid transparent !important;
+      border-bottom: 16px solid transparent !important;
+      border-right: 10px solid transparent !important;
+      border-left: 10px solid transparent
+    }
+  }
+  
+div.wpcf7-response-output {
+    padding: 0;
+    border: 0;
+    margin: 2em 0;
+    text-align: center
+}
+
+.wpcf7-mail-sent-ok {
+    color: #398f14
+}
+
+.wpcf7-mail-sent-ng,
+.wpcf7-spam-blocked,
+.wpcf7-validation-errors {
+    color: red
+}
+
+
+.amit-container {
+    width: 100%;
+    margin: 0 auto
+}
+
+.amit-container-sm {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.amit-paper-layers {
+    margin-top: 15px
+}
+
+.amit-paper-layers:first-child {
+    margin-top: 0
+}
+
+.amit-desktop .amit-paper-layers.amit-animate {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translate(0, 100px);
+    -ms-transform: translate(0, 100px);
+    transform: translate(0, 100px)
+}
+
+.amit-paper-cont {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+#amitFooter,
+.amit-head-inner,
+.section.brd-btm {
+    padding-bottom: 20px
+}
+
+.amit-paper-cont .paper-padd-sm {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+@media (min-width:992px) {
+    .amit-wrapper {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .amit-container {
+        max-width: 810px
+    }
+
+    .amit-container-sm {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    #amitContainer {
+        background-color: transparent !important
+    }
+
+    .amit-paper-layers {
+        position: relative;
+        z-index: 0
+    }
+
+    .amit-layers-2 .amit-paper-layers {
+        margin-bottom: 3px
+    }
+
+    .amit-layers-3 .amit-paper-layers {
+        margin-bottom: 6px
+    }
+
+    .amit-layers-2 .amit-paper-layers:before,
+    .amit-layers-3 .amit-paper-layers:after,
+    .amit-layers-3 .amit-paper-layers:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute
+    }
+
+    .amit-layers-2 .amit-paper-layers:before,
+    .amit-layers-3 .amit-paper-layers:before {
+        top: 3px;
+        left: 3px;
+        z-index: 2
+    }
+
+    .amit-layers-3 .amit-paper-layers:after {
+        top: 6px;
+        left: 6px;
+        z-index: 1
+    }
+
+    .amit-paper,
+    .amit-paper-layers:after,
+    .amit-paper-layers:before {
+        border: 1px solid transparent
+    }
+
+    .amit-paper {
+        z-index: 3
+    }
+
+    .amit-paper-cont {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .amit-nav-on .amit-container-sm {
+        margin-right: 56px
+    }
+
+    .amit-nav-on .amit-container {
+        max-width: 866px
+    }
+
+    .amit-side-box-on .amit-paper-cont {
+        float: left;
+        width: 100%
+    }
+
+    .amit-side-box-on .amit-container-sm {
+        margin-left: 310px
+    }
+
+    .amit-side-box-on .amit-container {
+        max-width: 1140px
+    }
+
+    .amit-side-box-on.amit-nav-on .amit-container {
+        max-width: 1196px
+    }
+}
+
+@media (min-width:992px) and (min-width:1200px) {
+    .amit-side-box-on .amit-container-sm {
+        margin-left: 330px
+    }
+}
+
+@media (min-width:992px) and (min-width:992px) {
+    .amit-side-box-on .amit-paper-layers {
+        float: left;
+        width: 100%
+    }
+}
+
+.section {
+    margin-bottom: 30px
+}
+
+@media (max-width:479px) {
+    .section [class^=col-xs-] {
+        margin-bottom: 2em
+    }
+}
+
+@media (max-width:767px) {
+    .section [class^=col-sm-] {
+        margin-bottom: 2em
+    }
+}
+
+@media (max-width:991px) {
+    .section [class^=col-md-] {
+        margin-bottom: 2em
+    }
+}
+
+@media (max-width:1199px) {
+    .section [class^=col-lg-] {
+        margin-bottom: 2em
+    }
+}
+
+@media (min-width:768px) {
+    .padd-box-sm {
+        margin-left: 8%;
+        margin-right: 8%
+    }
+}
+
+@media (min-width:992px) {
+    .padd-box-sm {
+        margin-left: 12%;
+        margin-right: 12%
+    }
+}
+
+@media (min-width:1200px) {
+    .padd-box {
+        margin-left: 3.4%;
+        margin-right: 3.4%
+    }
+
+    .padd-box .padd-box-sm {
+        margin-left: 8.6%;
+        margin-right: 8.6%
+    }
+}
+
+#amitBgShape1,
+#amitBgShape2 {
+    top: 0;
+    position: fixed;
+    z-index: -1
+}
+
+#amitBgShape1 {
+    left: 0
+}
+
+#amitBgShape2 {
+    top: -100px;
+    right: -100px
+}
+
+#amitHeader {
+    position: relative
+}
+
+.amit-head-inner {
+    position: static;
+    padding-top: 20px;
+}
+
+@media (min-width:992px) {
+    .amit-head-inner {
+        border: none;
+        background: 0 0 !important
+    }
+}
+
+.amit-head-row {
+    display: table;
+    width: 100%
+}
+
+.amit-head-col {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.amit-logo {
+    font-size: 26px;
+    line-height: 1;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-block
+}
+
+.amit-logo img,
+.amit-logo span,
+.amit-logo svg {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.amit-logo img,
+.amit-logo svg {
+    max-height: 45px
+}
+
+.amit-logo img+span {
+    margin-left: 10px;
+    padding-right: 20px
+}
+
+.amit-nav-on.amit-nav-type1 #amitHeader .amit-container-sm {
+    margin-right: 0
+}
+
+@media (min-width:768px) {
+    .amit-nav-on .amit-logo-out #amitHeadCol1 {
+        width: 330px
+    }
+
+    .amit-nav-on .amit-logo-out #amitHeadCol2 {
+        width: auto
+    }
+
+    .amit-nav-on .amit-logo-out #amitHeadCol1+#amitHeadCol2 {
+        padding-left: 0
+    }
+
+    .amit-side-box-on .amit-logo-out .amit-container-sm {
+        margin-left: 0
+    }
+
+    .amit-nav-on #amitHeadCol1+#amitHeadCol2 {
+        padding-left: 25px
+    }
+
+    .amit-nav-on #amitHeadCol2 {
+        width: 100%
+    }
+}
+
+.amit-sidebar-on #amitSidebarBtn {
+    transition: all 350ms ease-out
+}
+
+@media (min-width:1006px) {
+    .amit-sidebar-on #amitSidebarBtn {
+        top: 20px;
+        right: 0;
+        width: 63px;
+        height: 63px;
+        position: absolute
+    }
+
+    .amit-sidebar-on .amit-head-col {
+        height: 63px
+    }
+}
+
+@media (max-width:1005px) and (min-width:992px) {
+    .amit-sidebar-on #amitSidebarBtn {
+        top: auto;
+        left: auto;
+        width: 50px;
+        height: 50px;
+        position: static
+    }
+
+    .amit-sidebar-on #amitHeadCol2 {
+        padding-right: 25px
+    }
+
+    .amit-sidebar-on .amit-head-col {
+        height: 50px
+    }
+
+    .amit-sidebar-on #amitHeadCol3 {
+        width: 50px
+    }
+}
+
+@media (min-width:1062px) {
+    .amit-sidebar-on.amit-nav-on.amit-nav-type1.amit-side-box-off #amitSidebarBtn {
+        top: 20px;
+        right: 0;
+        width: 63px;
+        height: 63px;
+        position: absolute
+    }
+}
+
+@media (max-width:1061px) and (min-width:992px) {
+    .amit-sidebar-on.amit-nav-on.amit-nav-type1.amit-side-box-off #amitSidebarBtn {
+        top: auto;
+        left: auto;
+        width: 50px;
+        height: 50px;
+        position: static
+    }
+
+    .amit-sidebar-on.amit-nav-on.amit-nav-type1.amit-side-box-off #amitHeadCol2 {
+        padding-right: 25px
+    }
+
+    .amit-sidebar-on.amit-nav-on.amit-nav-type1.amit-side-box-off .amit-head-col {
+        height: 50px
+    }
+
+    .amit-sidebar-on.amit-nav-on.amit-nav-type1.amit-side-box-off #amitHeadCol3 {
+        width: 50px
+    }
+}
+
+@media (min-width:1062px) {
+    .amit-sidebar-on.amit-nav-on.amit-nav-type2.amit-side-box-off #amitSidebarBtn {
+        top: 20px;
+        right: 0;
+        width: 63px;
+        height: 63px;
+        position: absolute
+    }
+}
+
+@media (max-width:1061px) and (min-width:992px) {
+    .amit-sidebar-on.amit-nav-on.amit-nav-type2.amit-side-box-off #amitSidebarBtn {
+        top: auto;
+        left: auto;
+        width: 50px;
+        height: 50px;
+        position: static
+    }
+
+    .amit-sidebar-on.amit-nav-on.amit-nav-type2.amit-side-box-off #amitHeadCol2 {
+        padding-right: 25px
+    }
+
+    .amit-sidebar-on.amit-nav-on.amit-nav-type2.amit-side-box-off .amit-head-col {
+        height: 50px
+    }
+
+    .amit-sidebar-on.amit-nav-on.amit-nav-type2.amit-side-box-off #amitHeadCol3 {
+        width: 50px
+    }
+
+    .amit-sidebar-on.amit-nav-on.amit-nav-type2.amit-side-box-off #amitHeader .amit-container-sm {
+        margin-right: 0
+    }
+}
+
+@media (min-width:1336px) {
+    .amit-sidebar-on.amit-side-box-on #amitSidebarBtn {
+        top: 20px;
+        right: 0;
+        width: 63px;
+        height: 63px;
+        position: absolute
+    }
+}
+
+@media (max-width:1335px) and (min-width:992px) {
+    .amit-sidebar-on.amit-side-box-on #amitSidebarBtn {
+        top: auto;
+        left: auto;
+        width: 50px;
+        height: 50px;
+        position: static
+    }
+
+    .amit-sidebar-on.amit-side-box-on #amitHeadCol2 {
+        padding-right: 25px
+    }
+
+    .amit-sidebar-on.amit-side-box-on .amit-head-col {
+        height: 50px
+    }
+
+    .amit-sidebar-on.amit-side-box-on #amitHeadCol3 {
+        width: 50px
+    }
+}
+
+@media (min-width:1392px) {
+    .amit-sidebar-on.amit-side-box-on.amit-nav-on.amit-nav-type1 #amitSidebarBtn {
+        top: 20px;
+        right: 0;
+        width: 63px;
+        height: 63px;
+        position: absolute
+    }
+}
+
+@media (max-width:1391px) and (min-width:992px) {
+    .amit-sidebar-on.amit-side-box-on.amit-nav-on.amit-nav-type1 #amitSidebarBtn {
+        top: auto;
+        left: auto;
+        width: 50px;
+        height: 50px;
+        position: static
+    }
+
+    .amit-sidebar-on.amit-side-box-on.amit-nav-on.amit-nav-type1 #amitHeadCol2 {
+        padding-right: 25px
+    }
+
+    .amit-sidebar-on.amit-side-box-on.amit-nav-on.amit-nav-type1 .amit-head-col {
+        height: 50px
+    }
+
+    .amit-sidebar-on.amit-side-box-on.amit-nav-on.amit-nav-type1 #amitHeadCol3 {
+        width: 50px
+    }
+}
+
+#amitFooter {
+    padding-top: 20px
+}
+
+#amitBtnUp {
+    font-size: 22px;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    display: none
+}
+
+#amitMainNav {
+    font-size: 1em;
+    line-height: 1em
+}
+
+#amitMainNav ul {
+    margin: 0;
+    padding: 0
+}
+
+#amitMainNav a,
+#amitMainNav li {
+    position: relative
+}
+
+#amitMainNav>ul {
+    margin: 0 -15px
+}
+
+#amitMainNav>ul>li {
+    padding: 10px 0;
+    margin: 0 15px;
+    display: inline-block
+}
+
+#amitMainNav>ul>li>a {
+    font-size: 1.133em;
+    font-weight: 700
+}
+
+#amitMainNav>ul>li>.sub-menu {
+    top: 100%;
+    left: -41px;
+    right: auto
+}
+
+#amitMainNav .menu-item-has-children>a {
+    padding-right: 15px
+}
+
+#amitMainNav .menu-item-has-children>a:after {
+    content: "\f0d7";
+    color: inherit;
+    font-size: .8em;
+    font-family: icomoon;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -.5em
+}
+
+#amitMainNav .sub-menu {
+    top: 0;
+    right: 100%;
+    position: absolute;
+    padding: 13px 16px;
+    z-index: 999;
+    text-align: left;
+    min-width: 200px;
+    border-radius: 6px;
+    box-shadow: 0 0 17px 1px rgba(0, 0, 0, .19);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px);
+    transition: all 450ms cubic-bezier(.23, 1, .32, 1) 0s
+}
+
+#amitNavSm,
+#amitNavWrap,
+.widget-title,
+.widget_calendar caption,
+.widget_calendar td,
+.widget_calendar th {
+    text-align: center
+}
+
+#amitNavInner,
+#amitSideBox {
+    transition: top .3s ease-out
+}
+
+#amitMainNav .sub-menu li {
+    margin: 8px 0
+}
+
+#amitMainNav .sub-menu a {
+    padding: 7px 25px;
+    display: block;
+    white-space: nowrap;
+    border-radius: 20px
+}
+
+#amitMainNav .sub-menu .menu-item-has-children>a:after {
+    right: 15px
+}
+
+#amitMainNav li:hover>.sub-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+#amitMainNavSm {
+    margin-bottom: 20px
+}
+
+#amitMainNavSm ul {
+    padding: 0
+}
+
+#amitMainNavSm li {
+    position: relative
+}
+
+#amitMainNavSm>ul>li {
+    padding: 7px 5px
+}
+
+#amitMainNavSm>ul>li>a {
+    font-size: 1.188em;
+    font-weight: 700
+}
+
+#amitMainNavSm .menu-item-has-children>a {
+    padding-right: 20px;
+    position: relative
+}
+
+#amitMainNavSm .menu-item-has-children>a:after {
+    content: "\f0d7";
+    color: inherit;
+    font-size: .8em;
+    font-family: icomoon;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -.6em
+}
+
+#amitMainNavSm .menu-item-has-children .menu-item-has-children>a:after {
+    margin-top: -.9em
+}
+
+#amitMainNavSm .sub-menu {
+    position: relative;
+    display: none;
+    margin-top: 8px
+}
+
+#amitMainNavSm .sub-menu:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .1
+}
+
+.amit-nav-type1 .amit-nav-btm,
+.amit-nav-type1 .amit-nav-btm:after,
+.amit-tooltip:after,
+.amit-tooltip:before {
+    content: ''
+}
+
+#amitMainNavSm .sub-menu li:last-child {
+    padding-bottom: 0
+}
+
+#amitMainNavSm .sub-menu a {
+    font-size: .938em;
+    display: inline-block;
+    margin: 5px 0
+}
+
+#amitMainNavSm .sub-menu .sub-menu {
+    margin-top: 0
+}
+
+#amitMainNavSm .sub-menu .sub-menu:before {
+    display: none
+}
+
+.amit-nav a {
+    display: block;
+    position: relative
+}
+
+.amit-nav .avatar {
+    background-color: #30cc81
+}
+
+#amitNavSm {
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch
+}
+
+#amitNavSm .amit-avatar,
+#amitNavSm ul {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#amitNavSm .amit-avatar {
+    padding: 0 10px 0 17px
+}
+
+#amitNavSm li {
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#amitNavSm li a {
+    padding: 3px 10px;
+    border-bottom: 3px solid transparent
+}
+
+#amitNavSm li .amit-icon {
+    font-size: 34px;
+    line-height: 42px
+}
+
+#amitNavWrap {
+    float: right;
+    right: 1px;
+    z-index: 4;
+    width: 56px;
+    position: relative
+}
+
+#amitNavWrap .amit-nav ul {
+    z-index: 1;
+    position: relative
+}
+
+#amitNavWrap .amit-nav .amit-nav-img,
+#amitNavWrap .amit-nav li {
+    padding: 10px 0;
+    position: relative
+}
+
+#amitNavWrap .amit-nav a {
+    height: 42px;
+    line-height: 42px
+}
+
+#amitNavWrap .amit-nav .current a,
+#amitNavWrap .amit-nav a:hover {
+    opacity: .5
+}
+
+#amitNavWrap .amit-nav .menu-item-object-category.current-menu-item a:hover,
+#amitNavWrap .amit-nav .menu-item-object-page.current-menu-item a:hover,
+#amitNavWrap .amit-nav .menu-item-object-post.current-menu-item a:hover {
+    opacity: 1
+}
+
+#amitNavWrap .amit-nav .amit-icon {
+    font-size: 28px;
+    line-height: 42px
+}
+
+#amitNavWrap .amit-nav .amit-icon,
+#amitNavWrap .amit-nav img {
+    display: inline-block;
+    vertical-align: top
+}
+
+#amitNavScroll {
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+#amitNavScroll .mCSB_scrollTools {
+    visibility: hidden !important
+}
+
+#amitNavTools {
+    font-size: 22px;
+    padding-top: 10px
+}
+
+#amitNavTools .amit-icon {
+    display: block
+}
+
+.amit-tooltip {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1em;
+    white-space: nowrap;
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    padding: 9px 20px
+}
+
+.amit-tooltip:before {
+    width: 0;
+    height: 0;
+    top: 50%;
+    margin-top: -8px;
+    position: absolute;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent
+}
+
+.amit-tooltip:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .9;
+    border-radius: 4px;
+    z-index: -1
+}
+
+.certy_widget_instagram a:hover,
+.widget_archive a:hover,
+.widget_categories a:hover,
+.widget_meta a:hover,
+.widget_nav_menu a:hover,
+.widget_pages a:hover,
+.widget_recent_comments a:hover,
+.widget_recent_entries a:hover {
+    opacity: .7
+}
+
+.amit-tooltip.arrow-left {
+    box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, .25)
+}
+
+.amit-tooltip.arrow-left:before {
+    left: -5px;
+    border-right: 5px solid transparent
+}
+
+.amit-tooltip.arrow-right {
+    box-shadow: 4px 7px 15px 1px rgba(0, 0, 0, .25)
+}
+
+.amit-tooltip.arrow-right:before {
+    right: -5px;
+    border-left: 5px solid transparent
+}
+
+.amit-nav-type1 #amitNavInner {
+    padding-bottom: 20px
+}
+
+.amit-nav-type1 #amitNav,
+.amit-nav-type1 #amitNavTools {
+    padding-right: 10px
+}
+
+.amit-nav-type1 .amit-nav-btm {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid transparent;
+    border-left: 56px solid transparent;
+    z-index: 0
+}
+
+.amit-nav-type1 .amit-nav-btm:after {
+    position: absolute;
+    left: -57px;
+    bottom: -11px;
+    width: 59px;
+    height: 1px;
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    z-index: 1
+}
+
+.amit-nav-type1 .amit-nav-cont {
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    padding: 5px 0
+}
+
+.amit-nav-type2 #amitNav,
+.amit-nav-type2 #amitNavTools {
+    padding-left: 10px
+}
+
+#amitSideBox .widget {
+    padding: 20px;
+    margin: 0
+}
+
+#amitSideBox .certy_widget_card {
+    padding: 0
+}
+
+.amit-side-box-btn {
+    padding: 20px
+}
+
+.amit-side-box-btn .btn {
+    max-width: 320px;
+    margin: 0 auto
+}
+
+@media (min-width:992px) {
+    #amitSideBoxWrap {
+        width: 290px;
+        float: left
+    }
+
+    #amitSideBox .amit-side-box-2 {
+        background: 0 0
+    }
+
+    #amitSideBox .amit-side-box-1,
+    #amitSideBox .amit-side-box-2 .widget {
+        margin-bottom: 30px;
+        box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, .2)
+    }
+
+    .amit-side-box-cont {
+        padding: 20px
+    }
+
+    .amit-side-box-btn {
+        padding: 40px 35px
+    }
+}
+
+@media (max-width:1199px) {
+    .amit-icons-list li {
+        width: 25%
+    }
+}
+
+@media (max-width:767px) {
+    .amit-icons-list li {
+        width: 33.33%;
+        padding: 5px
+    }
+}
+
+@media (max-width:479px) {
+    .amit-icons-list li {
+        width: 50%
+    }
+}
