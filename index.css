@@ -460,7 +460,7 @@ select[multiple] {
     }
 
     .dl-horizontal dd {
-        margin-left: 112px
+        margin-left: 100px;
     }
 }
 
@@ -5762,3 +5762,4 @@ div.wpcf7-response-output {
         width: 50%
     }
 }
+
