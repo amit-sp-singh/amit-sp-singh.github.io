@@ -5718,10 +5718,11 @@ div.wpcf7-response-output {
     margin: 0 auto
 }
 
-@media (min-width:992px) {
+@media (min-width:769px) {
     #amitSideBoxWrap {
         width: 290px;
-        float: left
+        float: left;
+        position: fixed;
     }
 
     #amitSideBox .amit-side-box-2 {
